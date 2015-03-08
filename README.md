@@ -4,6 +4,19 @@ A brute force solver for twobirds puzzles (and regular games)
 This is a simple solver for the word game twobirds. It works with the same dictionaries as the [wordbase-solver](https://github.com/relet/wordbase-solver).
 It is not completed, as I find the game not actually that interesting to analyze.
 
+## Installation
+
+    git clone https://github.com/relet/twobirds-solver.git
+    cd wordbase-solver
+
+    mkdir dict
+    cd dict
+    wget https://github.com/relet/wordbase-solver/raw/master/dict/twl.sqlite
+
+(The second step downloads a dictionary file from the neighbouring wordbase-solver repository)
+
+Requires a python interpreter and the following modules: sqlite3
+
 ## Game files 
 
 As with the wordbase solver, the game supports arbitrary size game boards. They consist of lines of lower case letters. 
