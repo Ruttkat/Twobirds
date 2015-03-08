@@ -4,6 +4,14 @@ A brute force solver for twobirds puzzles (and regular games)
 This is a simple solver for the word game twobirds. It works with the same dictionaries as the [wordbase-solver](https://github.com/relet/wordbase-solver).
 It is not completed, as I find the game not actually that interesting to analyze.
 
+## Game files 
+
+As with the wordbase solver, the game supports arbitrary size game boards. They consist of lines of lower case letters. 
+The following special characters are supported:
+
+ * A dot `.` represents a blank tile.
+ * An uppercase letter represents a bonus (golden) tile.
+
 ## Puzzles
 
 Currently, there are two types of python scripts:
